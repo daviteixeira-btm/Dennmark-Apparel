@@ -4,3 +4,81 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+:root {
+    --dark: #000;
+    --white: #F7F7F6;
+    --brown: #5D3F3D;
+}
+
+.navbar {
+    background: var(--dark);
+}
+
+#mens-collection {
+    height: 36rem;
+    background: var(--white);
+    /*border: 1px solid black;*/
+}
+
+#mens-collection .container .row .coluna1 article h1 {
+    color: var(--dark);
+    font-size: 4.5rem;
+}
+
+#mens-collection .container .row .coluna1 article h3 {
+    color: var(--dark);
+    font-size: 3rem;
+}
+
+#mens-collection .container .row .coluna1 article button {
+    background: var(--dark);
+    color: var(--white);
+    font-size: 2rem;
+    height: 4rem;
+    width: 100%;
+}
+
+#mens-collection .container .row .coluna1 article p {
+    color: var(--dark);
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+#FPS {
+    height: 14rem;
+    display: flex;
+    align-items: center;
+    background: var(--brown);
+    /*border: 1px solid black;*/
+}
+
+#FPS .container .row .coluna {
+    display: flex;
+    align-items: center;
+    /*border: 1px solid black;*/
+    justify-content: space-around;
+}
+
+#FPS .container .row .coluna .item1 {
+    /*border: 1px solid black;*/
+    margin: 1rem;
+}
+
+#FPS .container .row .coluna .item2 {
+    /*border: 1px solid black;*/
+    height: 6rem;
+}
+
+#FPS .container .row .coluna .item2 h4, p, a{
+    color: var(--white);
+    margin: 0.1rem;
+}
+
+#FPS .container .row .coluna .item2 h4 {
+    font-size: 1.2rem;
+}
+
+#FPS .container .row .coluna .item2 p, a {
+    font-size: 0.9rem;
+}
