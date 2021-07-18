@@ -82,3 +82,36 @@
 #FPS .container .row .coluna .item2 p, a {
     font-size: 0.9rem;
 }
+
+#Featured {
+    display: flex;
+    height: 20.2rem;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid black;*/
+}
+
+#Featured .container .row #title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Featured .container .row #title .line {
+    width: 90%;
+    height: 1px;
+    border: 1px solid var(--dark);
+}
+
+#Featured .container .row #title h3 {
+    width: 50%;
+    font-weight: 500;
+    margin: 1rem 3rem;
+    color: var(--dark);
+}
+
+#Featured .coluna img {
+    width: 100%;
+    /*border: 1px solid black;*/
+}
