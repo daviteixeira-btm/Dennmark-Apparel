@@ -137,7 +137,7 @@
 }
 
 #customer-top-picks .container .row #title .line {
-    width: 70%;
+    width: 60%;
     height: 1px;
     border: 1px solid var(--white);
 }
@@ -171,13 +171,14 @@
     flex-direction: row;
 }
 
-#customer-top-picks .container .row .card .card-top h5, p {
+#customer-top-picks .container .row .card .card-top h5 {
     color: var(--dark);
 }
 
 #customer-top-picks .container .row .card .card-top p {
     font-size: 1.2rem;
     margin-top: 1rem;
+    color: var(--dark);
 }
 
 #customer-top-picks .container .row .card .card-down {
@@ -264,4 +265,49 @@ footer .container #row-down #col-end{
 
 footer .container #row-down #col-end a {
     text-decoration: none;
+}
+
+#cadastro-email {
+    display: flex;
+    height: 15rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cadastro-email #title {
+    width: 83%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cadastro-email #title .line {
+    width: 70%;
+    height: 1px;
+    border: 1px solid var(--dark);
+}
+
+#cadastro-email #title h3 {
+    width: 100%;
+    display: flex;
+    font-weight: 500;
+    margin: 1rem 3rem;
+    color: var(--dark);
+    justify-content: center;
+}
+
+#cadastro-email form {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cadastro-email form button {
+    border: none;
+    color: var(--white);
+    background: var(--dark);
+    margin-top: 1rem;
+    height: 2rem;
 }
