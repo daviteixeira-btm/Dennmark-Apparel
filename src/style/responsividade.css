@@ -1,0 +1,206 @@
+@media screen and (max-width:1200px) {
+    
+    #mens-collection .container .row .coluna2 img {
+        width: 35rem;
+    }
+    
+    #FPS .container .row .coluna .item2 {
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    #FPS .container .row .coluna .item2 p {
+        height: 5rem;
+    }
+
+    #FPS .container .row .coluna .item2 a {
+        height: 2rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    #Featured .container .row #title .line {
+        width: 70%;
+    }
+    
+    
+    #customer-top-picks .container .row #title .line {
+        width: 50%;
+    }
+    
+    #customer-top-picks .container .row .card {
+        height: 28rem;
+        width: 28rem;
+    }
+
+    #customer-top-picks .container .row .card .card-top .coluna1{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #customer-top-picks .container .row .card .card-top .coluna2{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #customer-top-picks .container .row .card .card-top .img-item {
+        width: 9.5rem;
+        height: 18rem;
+    }
+    
+    #customer-top-picks .container .row .card .card-top .stars {
+        width: 12rem;
+        height: 3rem;
+    }
+    
+    #customer-top-picks .container .row .card .card-top h5 {
+        width: 12rem;
+        display: flex;
+        font-size: 1rem;
+        font-weight: 600;
+        align-items: center;
+    }
+    
+    #customer-top-picks .container .row .card .card-top p {
+        font-size: 1rem;
+    }
+    
+    #customer-top-picks .container .row .card .card-top .card-body .text1{
+        height: 10rem;
+        width: 12rem;
+    }
+    
+    #customer-top-picks .container .row .card .card-top .card-body .text2{
+        height: 2rem;
+        width: 12rem;
+    }
+    
+    #customer-top-picks .container .row .card .card-down a {
+        font-size: 1.3rem;
+    }
+    
+    #cadastro-email #title .line {
+        width: 60%;
+    }
+    
+    footer .container #row-top .col-6 .row .col-4 h5 {
+        font-size: 0.7rem;
+    }
+    
+    footer .container #row-top .col-6 .row .col-4 a {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width:990px){
+
+    #mens-collection .container .row .coluna1 {
+        height: 34rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-image: url(/src/img/KitProducts.png);
+        background-repeat: no-repeat;
+    }
+
+    #mens-collection .container .row .coluna1 article h1 {
+        font-size: 3.5rem;
+        font-weight: bold;
+        font-style: oblique;
+    }
+
+    #mens-collection .container .row .coluna1 article h3 {
+        font-size: 2rem;
+        font-weight: bold;
+        font-style: oblique;
+    }
+
+    #mens-collection .container .row .coluna1 article a {
+        width: 50%;
+    }
+
+    #mens-collection .container .row .coluna2 img {
+        display: none;
+    }
+
+    #FPS {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #FPS .container .row .coluna {
+        justify-content: start;
+    }
+    
+    #FPS .container .row .coluna .item2 {
+        height: 6.5rem;
+    }
+
+    #Featured .container .row #title .line {
+        width: 50%;
+    }
+
+    #customer-top-picks {
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #customer-top-picks .container .row #title .line {
+        width: 30%;
+    }
+    
+    #customer-top-picks .container .row .card{
+        width: auto;
+        margin-bottom: 2rem;
+    }
+    
+    #customer-top-picks .container .row .card .card-top {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    #customer-top-picks .container .row .card .card-top .stars {
+        width: 15rem;
+    }
+    
+    #customer-top-picks .container .row .card .card-top h5 {
+        width: auto;
+    }
+    
+    #customer-top-picks .container .row .card .card-top .card-body .text1{
+        width: 100%;
+    }
+    
+    #customer-top-picks .container .row .card .card-top .card-body .text2{
+        width: 100%;
+    }
+
+    footer {
+        height: auto;
+        padding: 2rem;
+    }
+
+    footer .container #row-top .col-lg-6 h3 {
+        margin-top: 1rem;
+    }
+
+    #cadastro-email {
+        height: auto;
+        padding: 1rem 0rem;
+    }
+
+    #cadastro-email #title .line {
+        width: 30%;
+    }
+}

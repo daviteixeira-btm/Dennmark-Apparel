@@ -52,7 +52,7 @@
 
 #mens-collection .container .row .coluna2 img {
     height: 34.5rem;
-    width: 51.5rem;
+    width: 47rem;
 } 
 
 #FPS {
@@ -243,38 +243,38 @@ footer {
     justify-content: center;
 }
 
-footer .container #row-top .col-6 h3 {
+footer .container #row-top .col-lg-6 h3 {
     display: flex;
     color: var(--white);
     margin-bottom: 2rem;
     align-items: center;
 }
 
-footer .container #row-top .col-6 h3 a {
+footer .container #row-top .col-lg-6 h3 a {
     text-decoration: none;
     margin: 0rem 0.4rem;
 }
 
-footer .container #row-top .col-6 .row .col-4 {
+footer .container #row-top .col-lg-6 .row .col-lg-4 {
     display: flex;
     flex-direction: column;
 }
 
-footer .container #row-top .col-6 .row .col-4 a, p, h5 {
+footer .container #row-top .col-lg-6 .row .col-lg-4 a, p, h5 {
     color: var(--white);
     text-decoration: none;
 }
 
-footer .container #row-top .col-6 .row .col-4 h5 {
+footer .container #row-top .col-lg-6 .row .col-lg-4 h5 {
     font-size: 0.8rem;
 }
 
-footer .container #row-top .col-6 .row .col-4 a {
+footer .container #row-top .col-lg-6 .row .col-lg-4 a {
     font-size: 0.8rem;
     margin: 0.6rem 0;
 }
 
-footer .container #row-top .col-6 .row .col-4 p {
+footer .container #row-top .col-lg-6 .row .col-lg-4 p {
     font-size: 0.8rem;
     margin: 0.4rem 0;
 }
@@ -312,26 +312,27 @@ footer .container #row-down #col-end a {
     justify-content: center;
 }
 
-#cadastro-email .container .row {
+#cadastro-email .container .row  .col-lg-12 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
-#cadastro-email #title {
+#cadastro-email .col-lg-12 #title {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#cadastro-email #title .line {
+#cadastro-email .col-lg-12 #title .line {
     width: 70%;
     height: 1px;
     border: 1px solid var(--dark);
 }
 
-#cadastro-email #title h3 {
+#cadastro-email .col-lg-12  #title h3 {
     width: 100%;
     display: flex;
     font-weight: 500;
@@ -340,14 +341,14 @@ footer .container #row-down #col-end a {
     justify-content: center;
 }
 
-#cadastro-email form {
+#cadastro-email .col-lg-12 form {
     width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#cadastro-email form button {
+#cadastro-email .col-lg-12 form button {
     border: none;
     color: var(--white);
     background: var(--dark);
