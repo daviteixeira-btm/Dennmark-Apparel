@@ -236,4 +236,161 @@
         width: 25rem;
         margin: 0.5rem 0rem;
     }
+    
+    #customer-top-picks .container .row #title .line {
+        width: 20%;
+    }
+
+    #customer-top-picks .container .row #title h3 {
+        font-size: 0.9rem;
+    }
+
+    #customer-top-picks .container .row .card .card-top .coluna1 img{
+        width: 10rem;
+        height: 14rem;
+    }
+    
+    #customer-top-picks .container .row .card .card-top .stars {
+        width: 10rem;
+    }
+    
+    #customer-top-picks .container .row .card .card-top h5 {
+        width: auto;
+    }
+
+    #customer-top-picks .container .row .card .card-top .card-body {
+        display: flex;
+        height: 20rem;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #customer-top-picks .container .row .card .card-top .card-body .text1{
+        font-size: 0.9rem;
+    }
+    
+    #customer-top-picks .container .row .card .card-top .card-body .text2{
+        font-size: 0.9rem;
+    }
+
+    #customer-top-picks .container .row .card .card-down a {
+        width: 100%;
+        height: 3rem;
+        font-size: 1rem;
+    }
+
+    #cadastro-email .container .row .col-lg-12 #title .line {
+        width: 26%;
+    }
+
+    #cadastro-email .container .row .col-lg-12  #title h3 {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    #Featured .container .row #title .line {
+        width: 17%;
+    }
+
+    #Featured .coluna img {
+        width: 22rem;
+    }
+
+    #customer-top-picks .container .row #title .line {
+        width: 14%;
+    }
+    
+    #customer-top-picks .container .row .card .card-top .stars {
+        width: 9rem;
+    }
+
+    #customer-top-picks .container .row .card {
+        padding: 1rem;
+    }
+
+    #customer-top-picks .container .row .card .card-top .card-body .card-title {
+        width: auto;
+        font-size: 0.9rem;
+    }
+
+    #customer-top-picks .container .row .card .card-top .card-body .text1{
+        font-size: 0.9rem;
+    }
+
+    #cadastro-email .container .row .col-lg-12 #title .line {
+        width: 16%;
+    }
+
+    footer .container #row-top .col-lg-6 h3 {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    #mens-collection .container .row .coluna1 article a {
+        width: 60%;
+        display: flex;
+        font-size: 1.2rem;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #Featured .container .row #title .line {
+        width: 8%;
+    }
+    
+    #Featured .coluna img {
+        width: 18rem;
+    }
+
+    #customer-top-picks .container .row .card {
+        padding: 0.5rem;
+    }
+
+    #customer-top-picks .container .row .card .card-top .card-body .card-title {
+        width: 8rem;
+        margin: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    #customer-top-picks .container .row .card .card-top .coluna1 {
+        display: flex;
+        align-items: baseline;
+        justify-content: flex-start;
+    }
+
+    #customer-top-picks .container .row .card .card-top .coluna1 img {
+        width: 7.5rem;
+        height: 20rem;
+        padding: 0;
+    }
+
+    #customer-top-picks .container .row .card .card-top .stars {
+        width: 8rem;
+        margin: 0.5rem;
+    }
+
+    #customer-top-picks .container .row .card .card-top .card-body .text1 {
+        width: 8rem;
+        margin: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    #customer-top-picks .container .row .card .card-top .card-body .text2 {
+        width: 8rem;
+        margin: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    #cadastro-email .container .row .col-lg-12 #title .line {
+        width: 5%;
+    }
+
+    footer .container #row-top .col-lg-6 h3 {
+        font-size: 0.8rem;
+    }
 }
