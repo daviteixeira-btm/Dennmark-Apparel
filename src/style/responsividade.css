@@ -200,7 +200,40 @@
         padding: 1rem 0rem;
     }
 
-    #cadastro-email #title .line {
-        width: 30%;
+    #cadastro-email .container .row .col-lg-12 #title .line {
+        width: 40%;
+    }
+
+    #cadastro-email .container .row .col-lg-12  #title h3 {
+        margin: 1rem;
+    }
+
+    #cadastro-email .container .row .col-lg-12 form {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    #Featured {
+        height: auto;
+    }
+
+    #Featured .container .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #Featured .container .row #title .line {
+        width: 20%;
+    }
+    
+    #Featured .container .row #title h3 {
+        font-size: 1.2rem;
+    }
+    
+    #Featured .coluna img {
+        width: 25rem;
+        margin: 0.5rem 0rem;
     }
 }
