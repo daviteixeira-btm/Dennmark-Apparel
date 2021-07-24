@@ -17,18 +17,19 @@
 }
 
 #mens-collection {
-    height: 36rem;
+    height: auto;
     background: var(--white);
 }
 
 #mens-collection .container .row .coluna1 article h1 {
-    color: var(--dark);
+    font-weight: bold;
     font-size: 4.5rem;
+    color: var(--dark);
 }
 
-#mens-collection .container .row .coluna1 article h3 {
-    color: var(--dark);
+#mens-collection .container .row .coluna1 article h2 {
     font-size: 3rem;
+    color: var(--dark);
 }
 
 #mens-collection .container .row .coluna1 article a {
@@ -40,20 +41,19 @@
     background: var(--dark);
 }
 
-#mens-collection .container .row .coluna1 article a:hover {
-    background: var(--light-dark);
-}
-
 #mens-collection .container .row .coluna1 article p {
     font-size: 0.8rem;
     color: var(--dark);
     margin-top: 1.5rem;
 }
 
-#mens-collection .container .row .coluna2 img {
-    height: 34.5rem;
-    width: 47rem;
-} 
+#mens-collection .container .row .coluna1 article a:hover {
+    background: var(--light-dark);
+}
+
+#mens-collection .container .row .coluna1 article img {
+    display: none;
+}
 
 #FPS {
     height: 14rem;

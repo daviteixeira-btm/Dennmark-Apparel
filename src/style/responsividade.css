@@ -1,7 +1,31 @@
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1024px) {
+
+    #mens-collection .container .row .coluna1 article #img-tablet {
+        display: flex;
+    }
+
+    #mens-collection .container .row .coluna1 article h1 {
+        font-size: 4rem;
+    }
+
+    #mens-collection .container .row .coluna1 article h2 {
+        font-size: 2.5rem;
+    }
+
+    #mens-collection .container .row .coluna1 article a {
+        display: flex;
+        font-size: 1.5rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #mens-collection .container .row .coluna1 article p {
+        font-weight: bolder;
+    }
     
     #mens-collection .container .row .coluna2 img {
-        width: 35rem;
+        width: 100%;
+        height: 100%;
     }
     
     #FPS .container .row .coluna .item2 {
@@ -100,26 +124,28 @@
 
 @media screen and (max-width:990px){
 
-    #mens-collection .container .row .coluna1 {
-        height: 34rem;
+    #mens-collection .container .row .coluna1 article { 
         width: 100%;
+        height: 100%;
         display: flex;
+        align-items: center;
         flex-direction: column;
-        justify-content: flex-end;
-        background-image: url(/src/img/KitProducts.png);
-        background-repeat: no-repeat;
+        justify-content: center;
+    }
+
+    #mens-collection .container .row .coluna1 article img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     #mens-collection .container .row .coluna1 article h1 {
         font-size: 3.5rem;
         font-weight: bold;
-        font-style: oblique;
     }
 
-    #mens-collection .container .row .coluna1 article h3 {
+    #mens-collection .container .row .coluna1 article h2 {
         font-size: 2rem;
-        font-weight: bold;
-        font-style: oblique;
     }
 
     #mens-collection .container .row .coluna1 article a {
