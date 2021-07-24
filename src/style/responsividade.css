@@ -240,6 +240,19 @@
 }
 
 @media screen and (max-width:425px) {
+
+    #mens-collection .container .row .coluna1 article #img-tablet {
+        display: none;
+    }
+
+    #mens-collection .container .row .coluna1 article #img-mobile-L {
+        display: flex;
+    }
+
+    #mens-collection .container .row .coluna1 article a {
+        font-size: 1rem;
+    }
+
     #Featured {
         height: auto;
     }
@@ -317,6 +330,26 @@
 
 @media screen and (max-width:375px) {
 
+    #mens-collection .container .row .coluna1 article #img-mobile-L {
+        display: none;
+    }
+
+    #mens-collection .container .row .coluna1 article #img-mobile-M {
+        display: flex;
+    }
+
+    #mens-collection .container .row .coluna1 article h2 {
+        font-size: 1.6rem;
+    }
+
+    #mens-collection .container .row .coluna1 article a {
+        height: 2.5rem;
+    }
+
+    #mens-collection .container .row .coluna1 article p {
+        font-size: 0.7rem;
+    }
+
     #Featured .container .row #title .line {
         width: 17%;
     }
@@ -357,12 +390,24 @@
 
 @media screen and (max-width:320px) {
 
-    #mens-collection .container .row .coluna1 article a {
-        width: 60%;
+    #mens-collection .container .row .coluna1 article #img-mobile-M {
+        display: none;
+    }
+
+    #mens-collection .container .row .coluna1 article #img-mobile-S {
         display: flex;
-        font-size: 1.2rem;
-        align-items: center;
-        justify-content: center;
+    }
+
+    #mens-collection .container .row .coluna1 article h1 {
+        font-size: 3rem;
+    }
+
+    #mens-collection .container .row .coluna1 article h2 {
+        font-size: 1.4rem;
+    }
+
+    #mens-collection .container .row .coluna1 article a {
+        font-size: 0.8rem;
     }
     
     #Featured .container .row #title .line {
